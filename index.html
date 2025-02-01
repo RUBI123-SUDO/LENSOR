@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akan Name Generator</title>
+  <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body style="font-size: xx-large;">
+
+  <div class="container">
+    <h1>Welcome to the Akan Name Generator!</h1>
+    <p>This app calculates your Akan name based on your birthdate and gender, following Ghanaian tradition.</p>
+    
+    <form style="font-size: larger;" id="akanForm">
+      <label for="birthdate">Enter your birthdate:</label>
+      <input type="date" id="birthdate" required>
+      
+      <label>Choose your gender:</label>
+      <input type="radio" name="gender" value="male" required> Male
+      <input type="radio" name="gender" value="female"> Female
+      
+      <button style="font-size: larger;" type="submit">Submit</button>
+    </form>
+    
+    <p id="akanNameResult"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
